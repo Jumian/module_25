@@ -4,7 +4,7 @@
 #include <fstream>
 #include <vector>
 
-#define FILEPATH "C:\\Users\\Azamat\\CLionProjects\\Skillbox\\module_25\\Skillbox_cpp_25_2\\resources\\data.txt"
+#define FILEPATH "..\\..\\resources\\data.txt"
 
 std::vector<int> hdd_load();
 
