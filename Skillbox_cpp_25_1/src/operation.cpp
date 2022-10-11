@@ -20,7 +20,7 @@ void input_operation(std::vector<my_command> &operation) {
                               operation.front().coords[1],
                               new_command.coords[0]))
                 std::cout << "==> Point on operation line!!! <==" << std::endl;
-            else std::cout << "Point out off operation line!" << std::endl;
+            else std::cout << "XX> Point out off operation line!! <XX" << std::endl;
             operation.push_back(new_command);
         }
     else if (new_command.cmd != NONE&&
